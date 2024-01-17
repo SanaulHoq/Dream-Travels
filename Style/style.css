@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.dream-nav {
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    gap: 20px;
+    width: 50%; 
+}
+.trav {
+    color:#ff5400;
+}
+.items-travel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+   
+}
+.items-travel a {
+    text-decoration: none;
+}
+.nav-travel {
+    display: flex;
+    max-width: 1250px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.explore-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px; 
+}
+.text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+}
+.font-size {
+    font-size: 46px;
+}
+.popular-container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.hil-text {
+    
+    width: 20%;
+    height: 340px;
+    
+}
+.hill-img {
+    margin-right: 180px;
+    width: 20%;
+    height: 550px;
+    top: 46px;
+    left: 10px;
+}
+
+/* Choose Your Destination Section Sart  */
+
+.img-container {
+
+    margin-left: 370px;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+.img-content1 {
+    display: flex;
+    position: relative;
+    color: white;
+    font-size: 32px;
+    gap: 24px;
+    bottom: 24px;
+    
+}
+.maldivs {
+    position: absolute;
+    top:45%;
+    left: 15%;
+}
+.indonasia {
+    position: absolute;
+    top:45%;
+    right: 35%; 
+}
+ .srilanka {
+    position:absolute;
+    top:40%;
+    left: 10%;
+}
+.northAmerica {
+    position:absolute;
+    top:40%;
+    left: 35%; 
+}
+.kashmir {
+    position:absolute;
+    top:40%;
+    right: 26%; 
+}
+.img-content2 {
+    display: flex;
+    gap: 24px;
+    bottom: 24px;
+    margin-top: 30px;
+    position: relative;
+    font-size: 32px;
+    color: white;
+}
+.img-content3 {
+    display: flex;
+    gap: 24px;
+    bottom: 24px;
+    margin-top: 30px;
+    position: relative;
+    font-size: 32px;
+    color: white;
+}
+.bangla {
+    position:absolute;
+    top:30%;
+    left: 8%; 
+}
+.bandar {
+    position:absolute;
+    top:30%;
+    right: 35%; 
+}
+.text-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+ /* Why Choose Section */
+
+.choose-container {
+   margin-left: 300px;
+   text-align: center;
+}
+
+.choose-container h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+.choose-contect1 {
+    display: flex;
+    margin-left: 400px;
+    gap: 20px;
+    width: 63%;
+    margin-top: 50px;
+    
+}
+.hotel {
+    background-color: rgba(251, 181, 99, 0.2);
+    width: 1440px;
+    height: 250px;
+    
+}
+.hotel h1 {
+    text-align: left;
+}
+.hotel p {
+    text-align: left;
+}
+
+.service {
+    background-color: rgba(41, 206, 246, 0.2);
+    width: 1440px;
+    height: 250px;
+    
+}
+.service h1 {
+    text-align: left;
+}
+.service p {
+    text-align: left;
+}
+.service img {
+    
+    text-align: center; 
+}
+.best-price {
+   
+    background-color: rgba(233, 68, 68, 0.2);
+    width: 540px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 700px;
+    
+}
+.best-price h1 {
+    text-align: left;
+}
+.best-price p {
+    text-align: left;
+}
+
+/* Choose Your Destination Section Sart  */
+
+
+/* Newsletter Section Start  */
+.login-container {
+    display: flex;
+    position: relative;
+    gap: 40px;
+    width: 88%;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+   margin-left: 200px;
+   width: 35%;
+   height: 300px;
+    
+}
+
+/* Newsletter Section End  */
+
+/* Footer Section Start. */
+
+.footer-container {
+
+    height: 350px;
+    margin-top: 40px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.footer {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+.trav {
+    color:#ff5400;
+}
+.footer-text {
+    text-align: center;
+}
+.social {
+    text-align: center;
+    margin-top: 30px;
+}
+.reserved {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Footer Section End. */
+
+ /* Simple Perfect */
+ .Perfect {
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+ }
+
+ .perfect-text {
+    width: 20%;
+    height: 300px;
+    
+}
+.bandarban-img {
+    display: flex;
+    height: 400px;
+    top: 15px;
+    left: 10px;
+    position: relative;
+    font-size: 32px;
+    color: white;
+}
+.btn-see-more {
+    background-color: #ff5400;
+    color: white;
+}
+
+.mountain {
+    position: absolute;
+    top:35%;
+    left: 15%;
+}
+
